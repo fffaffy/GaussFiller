@@ -19,7 +19,12 @@
 
 	<meta name="robots" content="index,follow">
 	<meta name="description" content="
-			Due to unavoidable view constraints and occlusions during capture, achieving visually complete scene reconstruction has always been a challenging task. We introduce GaussFiller, a novel framework designed for complete 3D scene reconstruction from sparse RGB-D inputs. Unlike existing mesh-based representations, our approach uses 3D Gaussian Splatting (3DGS), a more flexible and efficient representation, for scene reconstruction. We argue that the scene completion problem involves complex semantic and visual reasoning processes. Therefore, we effectively leverage the powerful reasoning capabilities of Vision Language Models (VLMs) as expert guidance through two novel mechanisms. First, given an incomplete 3DGS scene, we propose a Global-Local Alignment strategy to select the optimal completion viewpoints. This strategy utilizes the semantic reasoning ability of VLMs to analyze contextual relationships between the target scene and potential candidate views, providing semantic feedback. Second, after completing the selected views, we introduce a VLM-Coherence Test-Time Scaling module, which integrates a context-similarity-based selection strategy to identify the single best-inpainted result that exhibits the highest semantic coherence. Experiments indicate that our method can reconstruct plausible and visually satisfying complete 3D scenes from limited RGB-D data, offering significant benefits for downstream applications such as interior design and decoration.">
+			Due to unavoidable view constraints and occlusions during capture, achieving visually complete scene reconstruction has always been a challenging task. We introduce GaussFiller, a novel framework designed for complete 3D scene reconstruction from sparse RGB-D inputs. 
+		Unlike existing mesh-based representations, our approach uses 3D Gaussian Splatting (3DGS), a more flexible and efficient representation, for scene reconstruction. We argue that the scene completion problem involves complex semantic and visual reasoning processes. 
+		Therefore, we effectively leverage the powerful reasoning capabilities of Vision Language Models (VLMs) as expert guidance through two novel mechanisms. First, given an incomplete 3DGS scene, we propose a Global-Local Alignment strategy to select the optimal completion viewpoints. 
+		This strategy utilizes the semantic reasoning ability of VLMs to analyze contextual relationships between the target scene and potential candidate views, providing semantic feedback. 
+		Second, after completing the selected views, we introduce a VLM-Coherence Test-Time Scaling module, which integrates a context-similarity-based selection strategy to identify the single best-inpainted result that exhibits the highest semantic coherence. 
+		Experiments indicate that our method can reconstruct plausible and visually satisfying complete 3D scenes from limited RGB-D data, offering significant benefits for downstream applications such as interior design and decoration.">
 	<!-- <link rel="author" href="https://xxxxx.github.io/"> -->
 
 
@@ -85,14 +90,19 @@
 				<h2>Abstract</h2><br>
 				<div class="row" style="margin-bottom:5px">
 					<div class="col" style="text-align:center">
-						<img class="thumbnail" src="./images/teaser.jpeg" style="width:90%; margin-bottom:20px">
+						<img class="thumbnail" src="./images/teaser.pdf" style="width:90%; margin-bottom:20px">
 
 					</div>
 
 				</div>
 
 				<p class="text-justify">
-			Due to unavoidable view constraints and occlusions during capture, achieving visually complete scene reconstruction has always been a challenging task. We introduce GaussFiller, a novel framework designed for complete 3D scene reconstruction from sparse RGB-D inputs. Unlike existing mesh-based representations, our approach uses 3D Gaussian Splatting (3DGS), a more flexible and efficient representation, for scene reconstruction. We argue that the scene completion problem involves complex semantic and visual reasoning processes. Therefore, we effectively leverage the powerful reasoning capabilities of Vision Language Models (VLMs) as expert guidance through two novel mechanisms. First, given an incomplete 3DGS scene, we propose a Global-Local Alignment strategy to select the optimal completion viewpoints. This strategy utilizes the semantic reasoning ability of VLMs to analyze contextual relationships between the target scene and potential candidate views, providing semantic feedback. Second, after completing the selected views, we introduce a VLM-Coherence Test-Time Scaling module, which integrates a context-similarity-based selection strategy to identify the single best-inpainted result that exhibits the highest semantic coherence. Experiments indicate that our method can reconstruct plausible and visually satisfying complete 3D scenes from limited RGB-D data, offering significant benefits for downstream applications such as interior design and decoration.">
+			Due to unavoidable view constraints and occlusions during capture, achieving visually complete scene reconstruction has always been a challenging task. We introduce GaussFiller, a novel framework designed for complete 3D scene reconstruction from sparse RGB-D inputs. 
+					Unlike existing mesh-based representations, our approach uses 3D Gaussian Splatting (3DGS), a more flexible and efficient representation, for scene reconstruction. We argue that the scene completion problem involves complex semantic and visual reasoning processes. 
+					Therefore, we effectively leverage the powerful reasoning capabilities of Vision Language Models (VLMs) as expert guidance through two novel mechanisms. First, given an incomplete 3DGS scene, we propose a Global-Local Alignment strategy to select the optimal completion viewpoints. 
+					This strategy utilizes the semantic reasoning ability of VLMs to analyze contextual relationships between the target scene and potential candidate views, providing semantic feedback. 
+					Second, after completing the selected views, we introduce a VLM-Coherence Test-Time Scaling module, which integrates a context-similarity-based selection strategy to identify the single best-inpainted result that exhibits the highest semantic coherence. 
+					Experiments indicate that our method can reconstruct plausible and visually satisfying complete 3D scenes from limited RGB-D data, offering significant benefits for downstream applications such as interior design and decoration.
 					
 				</p>
 
