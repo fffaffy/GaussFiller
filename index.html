@@ -115,7 +115,7 @@ Due to unavoidable view constraints and occlusions during capture, achieving vis
 					</div>
 				</div>
 				
-				<p class="text-justify">
+				<p class="text-justify" style="text-align: left; line-height: 1.7; font-size: 1.05em; margin-bottom: 30px;">
 					The overview of our pipeline. Given a set of sparse RGBD images as input, we first reconstruct an initial 3D Gaussian scene. Then we strategically deploy two VLM-Expert guidance mechanisms to achieve scene completion from the initialization. 
 					(1) Global-Local Alignment. We leverage <a href="https://llava-vl.github.io/blog/2024-08-05-llava-onevision/" target="_blank">LLaVA-OneVision</a> to provide a comprehensive textual prior to filter initial local camera pose candidates that capture hole regions, which are coarsely generated based on geometric rules, 
 					selecting informative and semantically aligned poses for afterwards <a href="https://github.com/lllyasviel/Fooocus" target="_blank">Fooocus</a> inpainting. (2) VLM-Coherence Test-Time Scaling. We utilize <a href="https://github.com/haotian-liu/llava" target="_blank">LLaVA</a> to stabilize diffusion inpainting by selecting the result with the 
@@ -131,7 +131,7 @@ Due to unavoidable view constraints and occlusions during capture, achieving vis
 					</p>
 
 					<div class="col" style="text-align:center">
-						<img class="thumbnail" src="./images/comp_replica" style="width:90%; margin-bottom:20px">
+						<img class="thumbnail" src="./images/comp_replica.png" style="width:90%; margin-bottom:20px">
 					</div>
 
 
